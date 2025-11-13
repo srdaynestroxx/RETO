@@ -172,7 +172,7 @@ public class RETO {
 		
 		//try-whit-resources para manejo automatioc de recursoos
 		try(PrintWriter writer  = new PrintWriter(new FileWriter(file))){
-			
+		
 			writer.print("pais,ubicacion,trabajo,dinero,conocimiento,tiempo,poder,salud");
 			
 			System.out.println(" los datos se han guardado correctamente en :"+file.getName());
